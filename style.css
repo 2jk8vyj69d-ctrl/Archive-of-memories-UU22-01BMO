@@ -45,7 +45,8 @@ footer{text-align:center}.last{font-style:italic;color:#8a775d}
 .video-card video {
     width: 100%;
     height: 260px;
-    object-fit: cover;
+    object-fit: contain;
+background: white;
     display: block;
     background: #111;
 }
