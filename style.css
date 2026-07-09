@@ -23,7 +23,10 @@ img{
     background:#f7f3ea;
     border-radius:18px;
 }
-.large img{height:538px}.wide img{height:260px}
+.large img,
+.wide img{
+    height:auto;
+}
 figcaption{padding:14px 16px;text-align:center;color:#5c5144}
 video {
     width: 50%;
